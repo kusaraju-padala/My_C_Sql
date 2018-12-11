@@ -1,0 +1,19 @@
+﻿Build started 27-05-2018 02:44:10 PM.
+     1>Project "F:\Winter Camp\DynamicTables\DynamicTables\DynamicTables.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt selectFromSchema.cpp
+         selectFromSchema.cpp
+     1>f:\winter camp\dynamictables\dynamictables\selectfromschema.cpp(18): warning C4091: 'typedef ' : ignored on left of 'schemas' when no variable is declared
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Winter Camp\DynamicTables\Debug\DynamicTables.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Winter Camp\DynamicTables\Debug\DynamicTables.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Winter Camp\DynamicTables\Debug\DynamicTables.lib" /MACHINE:X86 Debug\createSchema.obj
+         Debug\DynamicMain.obj
+         Debug\flushSchema.obj
+         Debug\importingToSchema.obj
+         Debug\joiningSchemas.obj
+         Debug\selectFromSchema.obj
+         DynamicTables.vcxproj -> F:\Winter Camp\DynamicTables\Debug\DynamicTables.exe
+     1>Done Building Project "F:\Winter Camp\DynamicTables\DynamicTables\DynamicTables.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.55
